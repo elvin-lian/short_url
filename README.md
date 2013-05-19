@@ -8,7 +8,7 @@ Setup
 =========
 
  - Create database
- - Setting configurations at /application/config/
+ - Setup your host configurations at /application/config/
  - Setup web server for all requests should be redirected to /index.php
  
    examples at: <br>
@@ -33,4 +33,4 @@ Setup
  >      "short_url": "http://your_short_url_host/81ce" <br>
  > } 
 
- * Then when visit http://your_short_url_host/81ce, it should redirect to your_url
+ * When visit http://your_short_url_host/81ce, it should redirect to your_url
