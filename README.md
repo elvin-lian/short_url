@@ -11,9 +11,9 @@ Setup
  - Setting configurations at /application/config/
  - Setup web server for all requests should be redirected to /index.php
  
-   examples at:
-   Nginx: /nginx.config
-   IIS: /web.config
+   examples at: <br>
+   Nginx: /nginx.config <br>
+   IIS: /web.config <br>
  
  Usage
 =========
@@ -27,10 +27,10 @@ Setup
   
  * Then It should response a JSON such as
  
- > {
- >      "status": 1,
- >      "url": "your_url",
- >      "short_url": "http://your_short_url_host/81ce"
- > }
+ > { <br>
+ >      "status": 1, <br>
+ >      "url": "your_url", <br>
+ >      "short_url": "http://your_short_url_host/81ce" <br>
+ > } 
 
  * Then when visit http://your_short_url_host/81ce, it should redirect to your_url
